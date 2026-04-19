@@ -147,7 +147,7 @@ const recipients = [
 
 const subject = "Gesprächsmöglichkeit mit Reza Pahlavi am 23. April 2026 im Deutschen Bundestag";
 
-const mainText = `am Donnerstag, den 23. April 2026, wird der iranische Oppositionsvertreter Reza Pahlavi zu Gesprächen im Deutscher Bundestag in Berlin erwartet.
+const mainText = `am Donnerstag, den 23. April 2026, wird der iranische Oppositionsvertreter Reza Pahlavi zu Gesprächen im Deutschen Bundestag in Berlin erwartet.
 
 Vor dem Hintergrund der anhaltenden politischen und gesellschaftlichen Entwicklungen im Iran sowie deren Bedeutung für die europäische Außen-, Sicherheits- und Energiepolitik möchten wir Sie höflich darauf aufmerksam machen, dass an diesem Tag Möglichkeiten für einen persönlichen Austausch mit Herrn Pahlavi bestehen.
 
