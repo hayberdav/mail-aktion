@@ -36,40 +36,40 @@ button {
 }
 
 .result-item {
-  margin-top: 14px;
-  padding: 12px 16px;
+  margin-top: 16px;
+  padding: 14px 18px;
   border: 1px solid #ddd;
   border-radius: 8px;
 }
 
 .result-item h3 {
   margin-top: 0;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
   font-size: 18px;
 }
 
 .result-item ul {
   margin: 0;
-  padding-left: 18px;
+  padding-left: 0;
+  list-style: none;
 }
 
-.result-item li {
+.person-entry {
+  margin-bottom: 18px;
+}
+
+.person-entry:last-child {
   margin-bottom: 0;
-  line-height: 1;
-  padding: 0;
-}
-
-.result-item br {
-  display: none;
 }
 
 .person-name {
-  display: inline;
-  margin-right: 4px;
+  display: block;
+  line-height: 1.15;
+  margin-bottom: 8px;
 }
 
 .mail-link {
-  display: inline;
-  margin-left: 4px;
+  display: block;
+  line-height: 1.15;
   text-decoration: none;
 }
