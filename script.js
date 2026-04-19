@@ -3,145 +3,193 @@ const recipients = [
     firstName: "Armin",
     lastName: "Laschet",
     email: "armin.laschet@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "CDU/CSU",
+    important: true
   },
   {
     firstName: "Peter",
     lastName: "Beyer",
     email: "peter.beyer@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "CDU/CSU",
+    important: false
   },
   {
     firstName: "Jürgen",
     lastName: "Hardt",
     email: "juergen.hardt@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "CDU/CSU",
+    important: true
   },
   {
     firstName: "Roderich",
     lastName: "Kiesewetter",
     email: "roderich.kiesewetter@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "CDU/CSU",
+    important: true
   },
   {
     firstName: "Markus",
     lastName: "Koob",
     email: "markus.koob@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "CDU/CSU",
+    important: false
   },
   {
     firstName: "Alexander",
     lastName: "Radwan",
     email: "alexander.radwan@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "CDU/CSU",
+    important: false
   },
   {
     firstName: "Johannes",
     lastName: "Volkmann",
     email: "johannes.volkmann@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "CDU/CSU",
+    important: false
   },
   {
     firstName: "Paul",
     lastName: "Ziemiak",
     email: "paul.ziemiak@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "CDU/CSU",
+    important: false
   },
   {
     firstName: "Nicolas",
     lastName: "Zippelius",
     email: "nicolas.zippelius@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "CDU/CSU",
+    important: false
   },
   {
     firstName: "Norbert",
     lastName: "Röttgen",
-    email: "Norbert.röttgen@bundestag.de",
-    salutation: "Sehr geehrter Herr Dr."
+    email: "norbert.roettgen@bundestag.de",
+    salutation: "Sehr geehrter Herr Dr.",
+    party: "CDU/CSU",
+    important: true
   },
   {
     firstName: "Johann",
     lastName: "Wadephul",
     email: "johann.wadephul@bundestag.de",
-    salutation: "Sehr geehrter Herr Bundesminister Dr."
+    salutation: "Sehr geehrter Herr Bundesminister Dr.",
+    party: "CDU/CSU",
+    important: true
   },
   {
     firstName: "Parsa",
     lastName: "Marvi",
     email: "parsa.marvi@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "SPD",
+    important: true
   },
   {
     firstName: "Boris",
     lastName: "Pistorius",
     email: "boris.pistorius@bundestag.de",
-    salutation: "Sehr geehrter Herr Bundesminister"
+    salutation: "Sehr geehrter Herr Bundesminister",
+    party: "SPD",
+    important: true
   },
   {
     firstName: "Adis",
     lastName: "Ahmetović",
     email: "adis.ahmetovic@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "SPD",
+    important: true
+  },
+  {
+    firstName: "Reem",
+    lastName: "Alabali-Radovan",
+    email: "reem.alabali-radovan@bundestag.de",
+    salutation: "Sehr geehrte Frau Bundesministerin",
+    party: "SPD",
+    important: true
   },
   {
     firstName: "Omid",
     lastName: "Nouripour",
     email: "omid.nouripour@bundestag.de",
-    salutation: "Sehr geehrter Herr Bundestagsvizepräsident"
+    salutation: "Sehr geehrter Herr Bundestagsvizepräsident",
+    party: "Bündnis 90/Die Grünen",
+    important: true
   },
   {
     firstName: "Max",
     lastName: "Lucks",
     email: "max.lucks@bundestag.de",
-    salutation: "Sehr geehrter Herr"
+    salutation: "Sehr geehrter Herr",
+    party: "Bündnis 90/Die Grünen",
+    important: false
   },
   {
     firstName: "Deborah",
     lastName: "Düring",
     email: "deborah.duering@bundestag.de",
-    salutation: "Sehr geehrte Frau"
+    salutation: "Sehr geehrte Frau",
+    party: "Bündnis 90/Die Grünen",
+    important: false
   },
- {
+  {
     firstName: "Agnieszka",
     lastName: "Brugger",
     email: "agnieszka.brugger@bundestag.de",
-    salutation: "Sehr geehrte Frau"
+    salutation: "Sehr geehrte Frau",
+    party: "Bündnis 90/Die Grünen",
+    important: false
   },
   {
     firstName: "Luise",
     lastName: "Amtsberg",
     email: "luise.amtsberg@bundestag.de",
-    salutation: "Sehr geehrte Frau"
+    salutation: "Sehr geehrte Frau",
+    party: "Bündnis 90/Die Grünen",
+    important: true
   },
-{
-    firstName: "Reem",
-    lastName: "Alabali-Radovan",
-    email: "reem.alabali-radovan@bundestag.de",
-    salutation: "Sehr geehrte Frau Bundesministerin"
-  },
-{
+  {
     firstName: "Diana",
     lastName: "Herbstreuth",
     email: "diana.herbstreuth@bundestag.de",
-    salutation: "Sehr geehrte Frau"
+    salutation: "Sehr geehrte Frau",
+    party: "CDU/CSU",
+    important: true
   },
-{
+  {
     firstName: "Serap",
-    lastName: "Gület",
+    lastName: "Güler",
     email: "serap.gueler@bundestag.de",
-    salutation: "Sehr geehrte Frau Staatsministerin"
+    salutation: "Sehr geehrte Frau Staatsministerin",
+    party: "CDU/CSU",
+    important: true
   },
-{
+  {
     firstName: "Julia",
     lastName: "Klöckner",
     email: "julia.kloeckner@bundestag.de",
-    salutation: "Sehr geehrte Frau Bundestagspräsidentin"
+    salutation: "Sehr geehrte Frau Bundestagspräsidentin",
+    party: "CDU/CSU",
+    important: true
   },
-{
+  {
     firstName: "Ellen",
     lastName: "Demuth",
     email: "ellen.demuth@bundestag.de",
-    salutation: "Sehr geehrte Frau"
+    salutation: "Sehr geehrte Frau",
+    party: "CDU/CSU",
+    important: true
   }
 ];
 
@@ -173,23 +221,55 @@ document.getElementById("generateBtn").addEventListener("click", function () {
 
   const fullName = `${vorname} ${nachname}`;
 
+  const grouped = {};
+
   recipients.forEach(person => {
-    const body = `${person.salutation} ${person.lastName},
+    if (!grouped[person.party]) {
+      grouped[person.party] = [];
+    }
+    grouped[person.party].push(person);
+  });
+
+  const partyOrder = [
+    "CDU/CSU",
+    "SPD",
+    "Bündnis 90/Die Grünen"
+  ];
+
+  partyOrder.forEach(party => {
+    if (!grouped[party] || grouped[party].length === 0) {
+      return;
+    }
+
+    grouped[party].sort((a, b) => a.lastName.localeCompare(b.lastName, "de"));
+
+    const partyBox = document.createElement("div");
+    partyBox.className = "result-item";
+
+    let partyHTML = `<h3>${party}</h3><ul>`;
+
+    grouped[party].forEach(person => {
+      const star = person.important ? " ⭐" : "";
+      const body = `${person.salutation} ${person.lastName},
 
 ${mainText}
 
 ${fullName}`;
 
-    const mailto = `mailto:${person.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const mailto = `mailto:${person.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-    const box = document.createElement("div");
-    box.className = "result-item";
-    box.innerHTML = `
-      <strong>${person.firstName} ${person.lastName}</strong><br>
-      ${person.email}<br>
-      <a href="${mailto}">Mail öffnen</a>
-    `;
+      partyHTML += `
+        <li>
+          ${person.lastName}, ${person.firstName}${star}<br>
+          ${person.email}<br>
+          <a href="${mailto}">Mail öffnen</a>
+        </li>
+      `;
+    });
 
-    results.appendChild(box);
+    partyHTML += `</ul>`;
+
+    partyBox.innerHTML = partyHTML;
+    results.appendChild(partyBox);
   });
 });
