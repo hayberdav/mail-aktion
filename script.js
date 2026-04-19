@@ -260,7 +260,7 @@ ${fullName}`;
 
 partyHTML += `
   <li>
-    <span class="person-name">${person.lastName}, ${person.firstName}${star}</span>
+    <span class="person-name">${star}${star ? " " : ""}${person.lastName}, ${person.firstName}</span>
     <a href="${mailto}" class="mail-link">Mail öffnen</a>
   </li>
 `;
