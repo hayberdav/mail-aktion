@@ -258,13 +258,12 @@ ${fullName}`;
 
       const mailto = `mailto:${person.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-      partyHTML += `
-        <li>
-          ${person.lastName}, ${person.firstName}${star}<br>
-          ${person.email}<br>
-          <a href="${mailto}">Mail öffnen</a>
-        </li>
-      `;
+partyHTML += `
+  <li>
+    <span class="person-name">${person.lastName}, ${person.firstName}${star}</span>
+    <a href="${mailto}" class="mail-link">Mail öffnen</a>
+  </li>
+`;
     });
 
     partyHTML += `</ul>`;
